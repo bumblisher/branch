@@ -1,2 +1,21 @@
 @import url('common.css');
 
+#wrap{width: 600px; margin: 0 auto;}
+#header{text-align: center; padding-bottom: 30px;}
+#header h2{font-size: 35px;}
+#content{width: 100%;}
+#content form{ border: 7px solid black; padding: 30px;}
+#content form hgroup{text-align: center; padding-bottom: 30px;}
+#content form hgroup h3{font-size: 30px; padding-bottom: 10px;}
+#content form hgroup h4{}
+#content form ul{padding-bottom: 10px;}
+#content form ul li{border-bottom: 1px solid gray;}
+#content form ul li:nth-of-type(1){border-top: 1px solid gray;}
+#content form ul li input{width: 100%; border: none; padding: 10px;}
+#content form .checkbox{text-align: right;}
+#content form .checkbox input{}
+#content form .btn{text-align: center; padding-bottom: 40px;}
+#content form .btn input{width: 70px; height: 30px; background: gray; color: white;}
+#content form .contentSub{text-align: center;}
+#content form .contentSub a:nth-of-type(1):after{content: ''; display: inline-block; height: 10px; border: 1px solid gray; margin-left: 5px; vertical-align: middle;}
+#content form .contentSub a{text-decoration: underline;}

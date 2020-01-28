@@ -1,0 +1,21 @@
+@import url('common.css');
+
+#wrap{width: 1820px; margin: 20px auto;}
+#header{width: 100%; overflow: hidden; padding: 30px;}
+#header img{float: left;}
+#header ul{ float: right; margin-right: 50px; margin-top: 10px;}
+#header ul li{display: inline-block; }
+#header ul li > a{padding: 10px 10px;}
+#header ul li:last-of-type:after{content: ''; display: inline-block;height: 30px; border: 1px solid gray; vertical-align: middle;}
+#header .menu{position: relative;left: 98%; top: 10px;}
+#header .menu a{}
+#header .menu a span{width: 40px; border: 1px solid black; position: absolute;left: 0; top: 0;}
+#header .menu span:nth-of-type(1){top: 10px;}
+#header .menu span:nth-of-type(2){top: 20px; width: 20px;}
+#header .menu span:nth-of-type(3){top: 30px; width: 35px;}
+#content{}
+#content .mainContent{position: relative;}
+#content .mainContent img{}
+#content .mainContent .mainTitle{position: absolute; left: 35%; top: 35%;}
+#content .mainContent .mainTitle h3{ color: white; font-size: 100px; margin-bottom: 10px;}
+#content .mainContent .mainTitle h4{ color: white; font-size:20px; text-align: center;}
